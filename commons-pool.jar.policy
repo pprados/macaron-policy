@@ -1,0 +1,6 @@
+// commons-pool.jar
+grant {
+	permission java.net.SocketPermission "localhost","resolve" ;
+	permission java.util.PropertyPermission "hsqldb.trace","read" ;
+	permission java.util.PropertyPermission "hsqldb.tracesystemout","read" ;
+};

@@ -7,5 +7,4 @@ grant {
 	permission java.util.PropertyPermission "log4j.debug","read" ;
 	permission java.util.PropertyPermission "log4j.defaultInitOverride","read" ;
 	permission java.util.PropertyPermission "log4j.ignoreTCL","read" ;
-	permission java.util.PropertyPermission "petclinic.root","read" ;
 };
